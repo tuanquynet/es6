@@ -1,0 +1,10 @@
+{
+    "plugins": ["prism", "-highlight", "js-console@git+https://github.com/tuanquynet/gitbook-plugin-js-console.git", "addcssjs"],
+    "pluginsConfig": {
+        "prism": {
+            "css": ["prismjs/themes/prism-okaidia.css"]
+        },
+        "addcssjs": { }
+    },
+    "root": "./docs"
+}

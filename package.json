@@ -1,0 +1,28 @@
+{
+  "name": "ecmascript",
+  "version": "1.0.0",
+  "description": "Sample code to explain latest features ecmascript since 2015",
+  "main": "index.js",
+  "scripts": {
+    "build": "gitbook build",
+    "preview": "gitbook serve --open",
+    "pdf": "gitbook pdf ./ ./exports/es6+.pdf",
+    "deploy": "sh deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tuanquynet/es6.git"
+  },
+  "keywords": [
+    "gitbook",
+    "javascript",
+    "documentation",
+    "docs"
+  ],
+  "author": "Quy Tran",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {}
+}
