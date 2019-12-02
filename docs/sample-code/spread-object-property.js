@@ -10,7 +10,7 @@ const inviteNoId = {
 
 const newInvite = {
   ...invite,
-  id
+  id,
 }
 
 const newInvite2 = {

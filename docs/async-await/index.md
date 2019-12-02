@@ -214,3 +214,21 @@ const results = await runPromisesInSequence(wrappingFuncs);
 console.log(results);
 ```
 <!-- js-console -->
+
+## Pitfall
+<!-- js-console -->
+```javascript
+async function countProduct() {
+    return Promise.resolve(100);
+}
+
+async function getStatistic() {
+    return {
+        date: new Date(),
+        productCount: countProduct(),
+    }
+}
+
+const results = await getStatistic();
+```
+<!-- js-console -->
