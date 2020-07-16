@@ -22,7 +22,7 @@
   "author": "Quy Tran",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^4.17.10"
+    "lodash": "^4.17.19"
   },
   "devDependencies": {}
 }
